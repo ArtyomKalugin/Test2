@@ -33,7 +33,13 @@ public class ParkParsingException extends RuntimeException {
             this.fieldName = fieldName;
             this.validationError = validationError;
         }
+
+        public String getFieldName() {
+            return fieldName;
+        }
+
+        public String getValidationError() {
+            return validationError;
+        }
     }
 }
-
-

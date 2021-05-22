@@ -28,7 +28,7 @@ public class MainClass {
     private ParkParsingServiceImpl parsingService = new ParkParsingServiceImpl();
 
     public static void main(String[] args) throws Exception {
-        new MainClass().run("");
+        new MainClass().run("C:\\Users\\HUAWEI\\IdeaProjects\\park-quiz\\src\\itis\\parsing\\resources\\parkdata2");
     }
 
     private void run(String parkFilePath) {
